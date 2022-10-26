@@ -1,5 +1,7 @@
 from decouple import config
 
+from main.settings.base import BASE_DIR
+
 
 DEBUG = False
 
@@ -15,4 +17,4 @@ DATABASES = {
     }
 }
 
-STATIC_ROOT = '/static/cdn/'
+STATIC_ROOT = BASE_DIR / 'static-cdn/'

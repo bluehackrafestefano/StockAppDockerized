@@ -153,5 +153,5 @@ chromedriver_win32
 ExerciseFiles
 001_Django_20210614_README.md
 geckodriver.log
-
 data/
+static-cdn
