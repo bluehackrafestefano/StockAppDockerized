@@ -17,4 +17,4 @@ DATABASES = {
     }
 }
 
-STATIC_ROOT = BASE_DIR / 'static-cdn/'
+STATIC_ROOT = BASE_DIR / 'static/'
